@@ -1,6 +1,6 @@
 cask "llmd" do
-  version "0.1.0"
-  sha256 "159f68e3de73e753073262b00c76ed175af0097c5ac73659fd4e75680f76f65b"
+  version "0.1.1"
+  sha256 "443acd1b53356ca1af2e649106e147ea07677b8072c3ce36e695abf69f72ca06"
 
   url "https://github.com/artfulreflections/homebrew-llmd/releases/download/v#{version}/llmd-#{version}.zip"
   name "llmd"
