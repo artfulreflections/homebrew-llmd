@@ -1,19 +1,11 @@
 # llmd Homebrew tap
 
+![llmd for macOS](images/hero-dark.png)
+
 `llmd` is a native macOS Markdown viewer and editor. It opens Markdown files or
 folders, renders Mermaid diagrams and math, and can also edit documents. The
 application is built with SwiftUI and TextKit rather than wrapping the reading
 experience in a browser.
-
-## Screenshots
-
-<!-- Screenshot placeholder: add a selected, approved application screenshot here. -->
-
-<!-- Screenshot placeholder: add a selected, approved editor screenshot here. -->
-
-Candidate media currently in the source repository's `website/assets/` are
-`hero-dark.png` and `hero.mp4`. These are not embedded here; choose the images
-for this page before replacing the placeholders.
 
 ## Requirements
 
@@ -72,12 +64,9 @@ The 0.1.2 app bundle is signed with the Developer ID identity
 bundle with source `Notarized Developer ID`, and `stapler validate` confirmed a
 valid stapled notarization ticket.
 
-The current cask still removes the `com.apple.quarantine` attribute from the
-installed app in its `postflight`. This means macOS's normal first-open
-quarantine handling is removed by the installer, even though the tested 0.1.2
-bundle is notarized and stapled. This is disclosed here while the project owner
-decides whether to remove that postflight or retain it with an explanation.
-The cask does not request administrator privileges.
+The cask does not remove the `com.apple.quarantine` attribute. macOS retains its
+normal first-open Gatekeeper checks. The cask does not request administrator
+privileges.
 
 The AI assistant can connect to configured OpenAI-compatible or Anthropic
 services. Configure only services you intend to use; their network and data

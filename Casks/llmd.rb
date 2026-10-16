@@ -12,9 +12,5 @@ cask "llmd" do
   app "llmd.app"
   binary "#{appdir}/llmd.app/Contents/MacOS/llmd"
 
-  postflight_steps do
-    run "/usr/bin/xattr", args: ["-rd", "com.apple.quarantine", "{{appdir}}/llmd.app"]
-  end
-
   zap trash: "~/Library/Preferences/com.llmd.app.plist"
 end
