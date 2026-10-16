@@ -1,6 +1,8 @@
 # llmd Homebrew tap
 
-![llmd for macOS](images/hero-dark.png)
+![llmd displaying a Mermaid diagram and rendered math](images/llmd-0.1.2.png)
+
+*Screenshot of the signed and notarized 0.1.2 release displaying the Mermaid and math sections of `fixtures/resize-test.md`.*
 
 `llmd` is a native macOS Markdown viewer and editor. It opens Markdown files or
 folders, renders Mermaid diagrams and math, and can also edit documents. The
@@ -74,8 +76,8 @@ handling are governed by those services' policies.
 
 ## Project and issue reporting
 
-`llmd` is a fork of [jud/llmd](https://github.com/jud/llmd). The source
-repository and issue tracker are at
+llmd is a fork of mkdn by Jud Stephenson, https://github.com/Jud/mkdn. The
+source repository and issue tracker for this fork are at
 [artfulreflections/llmd](https://github.com/artfulreflections/llmd). That source
 repository is currently private, so access to its code and issue tracker may
 require permission.
