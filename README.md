@@ -2,7 +2,7 @@
 
 ![llmd displaying a Mermaid diagram and rendered math](images/llmd-0.1.2.png)
 
-*Screenshot of the signed and notarized 0.1.2 release displaying the Mermaid and math sections of `fixtures/resize-test.md`.*
+*Screenshot of the signed and notarized 0.1.2 release rendering a short welcome note with a table, Mermaid flowchart, and math.*
 
 `llmd` is a native macOS Markdown viewer and editor. It opens Markdown files or
 folders, renders Mermaid diagrams and math, and can also edit documents. The
