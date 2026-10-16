@@ -5,7 +5,7 @@ cask "llmd" do
   url "https://github.com/artfulreflections/homebrew-llmd/releases/download/v#{version}/llmd-#{version}.zip"
   name "llmd"
   desc "Markdown viewer with Mermaid diagram support"
-  homepage "https://github.com/artfulreflections/llmd"
+  homepage "https://github.com/artfulreflections/homebrew-llmd"
 
   depends_on arch: :arm64, macos: :sonoma
 

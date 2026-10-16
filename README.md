@@ -77,14 +77,13 @@ handling are governed by those services' policies.
 ## Project and issue reporting
 
 llmd is a fork of mkdn by Jud Stephenson, https://github.com/Jud/mkdn. The
-source repository and issue tracker for this fork are at
-[artfulreflections/llmd](https://github.com/artfulreflections/llmd). That source
-repository is currently private, so access to its code and issue tracker may
-require permission.
+This tap distributes the signed release package. It does not provide or promise
+access to the fork's source repository. For cask installation or update issues,
+use the [tap issue tracker](https://github.com/artfulreflections/homebrew-llmd/issues).
 
 ## License
 
-The upstream `llmd` software is licensed under the MIT License; its copyright
-and license terms are retained in [LICENSE](LICENSE). The LLC notice in that
-file is scoped to original tap-specific material and does not replace the
-upstream license.
+The app is a fork of mkdn, whose MIT copyright and license terms are retained
+in [LICENSE](LICENSE). The LLC notice in that file applies only to original
+tap-specific documentation and packaging; it does not replace the upstream
+license. The tap's binary distribution does not imply source access.
