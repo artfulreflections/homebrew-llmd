@@ -7,7 +7,7 @@ cask "llmd" do
   desc "Markdown viewer with Mermaid diagram support"
   homepage "https://github.com/artfulreflections/llmd"
 
-  depends_on macos: :sonoma
+  depends_on arch: :arm64, macos: :sonoma
 
   app "llmd.app"
   binary "#{appdir}/llmd.app/Contents/MacOS/llmd"
